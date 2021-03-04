@@ -11,3 +11,8 @@ The defaults are:
 - myRechargeMultiplier = 1 #could halve the regard rate by setting myRechargeMultiplier = 0.5
 - myQuest11 = FALSE # Set to true for parts of Q11 when we are asked about the vfun and sdot
 - myGW.data = gw.data #set to gw.data.alt for later parts of the problem set
+
+
+You can add this function to your own environment by running:
+
+source("https://raw.githubusercontent.com/a5creel/myWaterSim/main/myWaterSim.R")
