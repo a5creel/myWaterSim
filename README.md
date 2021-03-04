@@ -24,3 +24,5 @@ You can add this function to your own environment by running:
 source("https://raw.githubusercontent.com/a5creel/myWaterSim/main/myWaterSim.R")
 
 
+Look at myWaterSim-tutorial.R for some brief examples on how the function can be used. 
+
