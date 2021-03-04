@@ -11,12 +11,12 @@ output <- myWaterSim(myDiscountRate = 0.03, myStock = 21.5, myRechargeMultiplier
 
 The defaults are:
 - myDiscountRate = 0.03
-- myStock = 21.5 # water depth
-- myRechargeMultiplier = 1 #could halve the recharge rate by setting myRechargeMultiplier = 0.5
-- myQuest11 = FALSE # Set to TRUE in order to set psim(...,
-                    wval = profit(s, myGW.data),
-                    sdot = sdot(s, region_data[['recharge']],...)
-- myGW.data = gw.data #set to gw.data.alt for later parts of the problem set
+- myStock = 21.5 **water depth**
+- myRechargeMultiplier = 1 **could halve the recharge rate by setting myRechargeMultiplier = 0.5**
+- myQuest11 = FALSE **Set to TRUE in order to set psim(...,**
+                    **wval = profit(s, myGW.data),**
+                    **sdot = sdot(s, region_data[['recharge']],...)**
+- myGW.data = gw.data **set to gw.data.alt for later parts of the problem set**
 
 
 You can add this function to your own environment by running:
